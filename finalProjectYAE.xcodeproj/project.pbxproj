@@ -17,6 +17,8 @@
 		9959E5CE24D09073007910AF /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959E5CD24D09073007910AF /* secondViewController.swift */; };
 		9959E5D024D09161007910AF /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959E5CF24D09161007910AF /* thirdViewController.swift */; };
 		9959E5D224D09210007910AF /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959E5D124D09210007910AF /* fourthViewController.swift */; };
+		9959E5D424D0A487007910AF /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959E5D324D0A487007910AF /* fifthViewController.swift */; };
+		9959E5D624D0A4C7007910AF /* sixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9959E5D524D0A4C7007910AF /* sixthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9959E5CD24D09073007910AF /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		9959E5CF24D09161007910AF /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		9959E5D124D09210007910AF /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		9959E5D324D0A487007910AF /* fifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		9959E5D524D0A4C7007910AF /* sixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sixthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				9959E5BA24D08FC7007910AF /* ViewController.swift */,
 				9959E5BC24D08FC7007910AF /* Main.storyboard */,
 				9959E5CF24D09161007910AF /* thirdViewController.swift */,
+				9959E5D324D0A487007910AF /* fifthViewController.swift */,
+				9959E5D524D0A4C7007910AF /* sixthViewController.swift */,
 				9959E5CD24D09073007910AF /* secondViewController.swift */,
 				9959E5D124D09210007910AF /* fourthViewController.swift */,
 				9959E5C224D08FCC007910AF /* Assets.xcassets */,
@@ -150,10 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9959E5D624D0A4C7007910AF /* sixthViewController.swift in Sources */,
 				9959E5C124D08FC7007910AF /* finalProjectYAE.xcdatamodeld in Sources */,
 				9959E5BB24D08FC7007910AF /* ViewController.swift in Sources */,
 				9959E5D224D09210007910AF /* fourthViewController.swift in Sources */,
 				9959E5D024D09161007910AF /* thirdViewController.swift in Sources */,
+				9959E5D424D0A487007910AF /* fifthViewController.swift in Sources */,
 				9959E5B724D08FC7007910AF /* AppDelegate.swift in Sources */,
 				9959E5CE24D09073007910AF /* secondViewController.swift in Sources */,
 				9959E5B924D08FC7007910AF /* SceneDelegate.swift in Sources */,
