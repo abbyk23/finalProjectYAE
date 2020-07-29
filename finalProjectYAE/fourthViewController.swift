@@ -24,5 +24,7 @@ class fourthViewController: UIViewController {
     @IBAction func writeYourLetterButton(_ sender: Any) {
     }
     
-
+    @IBAction func navLetterwriting(_ sender: Any) {
+    }
+    
 }
