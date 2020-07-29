@@ -200,10 +200,10 @@
             </objects>
             <point key="canvasLocation" x="132" y="875"/>
         </scene>
-        <!--View Controller-->
+        <!--Fifth View Controller-->
         <scene sceneID="Kuk-Vw-Yao">
             <objects>
-                <viewController id="8qG-cT-gLk" sceneMemberID="viewController">
+                <viewController id="8qG-cT-gLk" customClass="fifthViewController" customModule="finalProjectYAE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KUU-1M-C2J">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,6 +220,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to Main Menu"/>
                                 <connections>
+                                    <action selector="backtoMenu:" destination="8qG-cT-gLk" eventType="touchUpInside" id="lEk-ZG-sLQ"/>
                                     <segue destination="770-qF-jNL" kind="show" id="Y0T-zo-ZYE"/>
                                 </connections>
                             </button>
@@ -228,15 +229,18 @@
                         <viewLayoutGuide key="safeArea" id="5VY-qR-ocT"/>
                     </view>
                     <navigationItem key="navigationItem" id="ph2-aS-fgN"/>
+                    <connections>
+                        <outlet property="letterGenerator" destination="dbi-JG-bKp" id="O1e-ID-R31"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yda-4E-dcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922" y="879"/>
+            <point key="canvasLocation" x="1000" y="879"/>
         </scene>
-        <!--View Controller-->
+        <!--Sixth View Controller-->
         <scene sceneID="br2-3i-atw">
             <objects>
-                <viewController id="zVw-lA-ePk" sceneMemberID="viewController">
+                <viewController id="zVw-lA-ePk" customClass="sixthViewController" customModule="finalProjectYAE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ti7-kQ-z6f">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -253,6 +257,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back to Main Menu"/>
                                 <connections>
+                                    <action selector="navSix:" destination="zVw-lA-ePk" eventType="touchUpInside" id="7VW-0I-p1I"/>
                                     <segue destination="770-qF-jNL" kind="show" id="bC8-8J-f1e"/>
                                 </connections>
                             </button>
@@ -261,6 +266,9 @@
                         <viewLayoutGuide key="safeArea" id="Xvs-4P-3Gc"/>
                     </view>
                     <navigationItem key="navigationItem" id="jcw-98-2ZU"/>
+                    <connections>
+                        <outlet property="writeyourLetter" destination="eDR-nJ-hpC" id="bei-jg-zky"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w54-N2-9lj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -343,6 +351,6 @@
         <image name="YEALogo" width="1500" height="1500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BTY-OH-Ccx"/>
+        <segue reference="bC8-8J-f1e"/>
     </inferredMetricsTieBreakers>
 </document>
