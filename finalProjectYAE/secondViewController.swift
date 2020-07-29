@@ -22,7 +22,7 @@ class secondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func findYourRepresentativeButton(_ sender: Any) {
+    @IBAction func findYourRepresentativeButton(_ sender: Any) { UIApplication.shared.open(URL(string:"https://www.commoncause.org")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func letterWritingButton(_ sender: Any) {
