@@ -23,7 +23,7 @@ class fifthViewController: UIViewController, MFMailComposeViewControllerDelegate
         backOutlet.layer.cornerRadius = 10
         heading.delegate = self
                textbox.delegate = self
-        
+        textbox.text = "Dear state legislator,\nMy name is (insert name) and my community had been exposed to cancer-causing emissions of Ethylene Oxide for over 30 years. Please support HB 3888 to ban Ethylene Oxide emissions near schools.\nThank you,\nAlexandra"
     }
     
 
