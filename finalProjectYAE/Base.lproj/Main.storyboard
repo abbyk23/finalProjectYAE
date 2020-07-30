@@ -105,7 +105,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9C-gl-Qec">
-                                <rect key="frame" x="65" y="376" width="285" height="91"/>
+                                <rect key="frame" x="65" y="403" width="285" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Writing letters is an important part of activism, it allows you direct access to local and state officials.">
@@ -173,7 +173,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGN-1t-gjG">
-                                <rect key="frame" x="86" y="323" width="242" height="39"/>
+                                <rect key="frame" x="86" y="356" width="242" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -233,16 +233,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ts-dU-JYQ">
-                                <rect key="frame" x="86" y="213" width="242" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98002940419999995" green="0.88967788219999999" blue="0.92157244679999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Letter Generator"/>
-                                <connections>
-                                    <action selector="letterWritingGenerator:" destination="YeK-f6-p1o" eventType="touchUpInside" id="M9l-sE-3Ld"/>
-                                    <segue destination="8qG-cT-gLk" kind="show" id="Miq-t1-M7q"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eo7-pv-WpP">
                                 <rect key="frame" x="132" y="736" width="151" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -257,7 +247,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0g-KB-Uk8">
-                                <rect key="frame" x="66" y="254" width="282" height="78"/>
+                                <rect key="frame" x="66" y="297" width="282" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Click here to go to a prewritten letter already in your email!">
@@ -292,6 +282,16 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ts-dU-JYQ">
+                                <rect key="frame" x="86" y="250" width="242" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98002940419999995" green="0.88967788219999999" blue="0.92157244679999994" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Letter Generator"/>
+                                <connections>
+                                    <action selector="letterWritingGenerator:" destination="YeK-f6-p1o" eventType="touchUpInside" id="M9l-sE-3Ld"/>
+                                    <segue destination="8qG-cT-gLk" kind="show" id="Miq-t1-M7q"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ggd-aF-e5b"/>
@@ -331,12 +331,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zc6-Iq-P2x">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zc6-Iq-P2x">
                                 <rect key="frame" x="132" y="721" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Back to Main Menu">
-                                    <color key="titleColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back to Main Menu">
+                                            <attributes>
+                                                <color key="NSColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" metaFont="system" size="15"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                 </state>
                                 <connections>
                                     <action selector="backtoMenu:" destination="8qG-cT-gLk" eventType="touchUpInside" id="lEk-ZG-sLQ"/>
@@ -344,13 +351,13 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZd-9e-Ygr">
-                                <rect key="frame" x="144" y="147" width="97" height="34"/>
+                                <rect key="frame" x="159" y="178" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RLb-3u-abX">
-                                <rect key="frame" x="48" y="298" width="289" height="244"/>
+                                <rect key="frame" x="63" y="292" width="289" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -358,9 +365,12 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUm-2w-J2V">
-                                <rect key="frame" x="155" y="605" width="76" height="30"/>
+                                <rect key="frame" x="169" y="624" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Email"/>
+                                <connections>
+                                    <action selector="sendButton:" destination="8qG-cT-gLk" eventType="touchUpInside" id="d1Q-Cb-K2n"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -369,7 +379,9 @@
                     <navigationItem key="navigationItem" id="ph2-aS-fgN"/>
                     <connections>
                         <outlet property="backOutlet" destination="Zc6-Iq-P2x" id="ucd-AI-byt"/>
+                        <outlet property="heading" destination="yZd-9e-Ygr" id="18i-9h-KA9"/>
                         <outlet property="letterGenerator" destination="dbi-JG-bKp" id="O1e-ID-R31"/>
+                        <outlet property="textbox" destination="RLb-3u-abX" id="K6I-7h-Wlm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yda-4E-dcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -411,14 +423,8 @@
                                     <segue destination="770-qF-jNL" kind="show" id="bC8-8J-f1e"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oS5-OV-hSf">
-                                <rect key="frame" x="159" y="144" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hcf-e3-iBn">
-                                <rect key="frame" x="60" y="305" width="289" height="244"/>
+                                <rect key="frame" x="63" y="309" width="289" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -433,6 +439,12 @@
                                     <action selector="sendEmail:" destination="zVw-lA-ePk" eventType="touchUpInside" id="UeT-PC-gCd"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oS5-OV-hSf">
+                                <rect key="frame" x="159" y="183" width="97" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xvs-4P-3Gc"/>
@@ -566,7 +578,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="bC8-8J-f1e"/>
+        <segue reference="Y0T-zo-ZYE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YEALogo" width="1500" height="1500"/>
