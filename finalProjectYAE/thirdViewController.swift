@@ -15,6 +15,7 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var politico: UIButton!
     @IBOutlet weak var nLMNIH: UIButton!
     @IBOutlet weak var harvard: UIButton!
+    @IBOutlet weak var nagScreen: UIButton!
     
     @IBOutlet weak var reliableResources: UILabel!
     override func viewDidLoad() {
@@ -24,7 +25,7 @@ class thirdViewController: UIViewController {
         politico.layer.cornerRadius = 10
         nLMNIH.layer.cornerRadius = 10
         harvard.layer.cornerRadius = 10
-        
+        nagScreen.layer.cornerRadius = 10
         
         
         // Do any additional setup after loading the view.

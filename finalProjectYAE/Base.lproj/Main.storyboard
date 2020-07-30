@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -247,6 +247,7 @@
                                 <rect key="frame" x="132" y="736" width="151" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back to Main Menu">
                                     <color key="titleColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -401,6 +402,7 @@
                                 <rect key="frame" x="132" y="738" width="150" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back to Main Menu">
                                     <color key="titleColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -455,14 +457,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaZ-vC-RPv">
-                                <rect key="frame" x="156" y="751" width="131" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back to Main Menu"/>
-                                <connections>
-                                    <segue destination="770-qF-jNL" kind="show" id="i4p-IK-Ple"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ka-vN-LTp">
                                 <rect key="frame" x="191" y="237" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -539,6 +533,18 @@
                                     <action selector="harvardButton:" destination="ENs-ui-Whv" eventType="touchUpInside" id="qaa-8P-U1G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaZ-vC-RPv">
+                                <rect key="frame" x="134" y="752" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back to Main Menu">
+                                    <color key="titleColor" red="0.99993759390000003" green="0.88582265380000003" blue="0.9227630496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="770-qF-jNL" kind="show" id="i4p-IK-Ple"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CIa-aw-heX"/>
@@ -548,6 +554,7 @@
                         <outlet property="harvard" destination="5Gq-mJ-wAA" id="yk2-LF-88n"/>
                         <outlet property="nLMNIH" destination="PzU-bA-JON" id="lgV-Jg-8jZ"/>
                         <outlet property="nPR" destination="H0T-2J-BNP" id="sNQ-O9-34H"/>
+                        <outlet property="nagScreen" destination="gaZ-vC-RPv" id="fM3-IU-AlL"/>
                         <outlet property="politico" destination="D7v-lo-8fD" id="dWK-OM-xN5"/>
                         <outlet property="reliableResources" destination="RaH-X6-LVK" id="z5o-cR-7uF"/>
                         <outlet property="resourceTitle" destination="o7m-wt-9bW" id="nw5-V5-wR1"/>
