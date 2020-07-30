@@ -15,15 +15,23 @@ class secondViewController: UIViewController {
     @IBOutlet weak var letterWritingDescriptionLabel: UILabel!
     @IBOutlet weak var resourcesDescription: UILabel!
     
+    @IBOutlet weak var findYourRep: UIButton!
+    @IBOutlet weak var letter: UIButton!
+    @IBOutlet weak var resources: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+  findYourRep.layer.cornerRadius = 10
+        letter.layer.cornerRadius = 10
+        resources.layer.cornerRadius = 10
         
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func findYourRepresentativeButton(_ sender: Any) { UIApplication.shared.open(URL(string:"https://www.commoncause.org")! as URL, options: [:], completionHandler: nil)
+  
+ 
+    
     }
     
     @IBAction func letterWritingButton(_ sender: Any) {
