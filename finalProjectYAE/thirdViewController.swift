@@ -9,7 +9,8 @@
 import UIKit
 
 class thirdViewController: UIViewController {
-
+    @IBOutlet weak var resourceTitle: UILabel!
+    
     @IBOutlet weak var reliableResources: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()

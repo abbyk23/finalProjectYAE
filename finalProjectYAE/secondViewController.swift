@@ -11,6 +11,7 @@ import UIKit
 class secondViewController: UIViewController {
 
     @IBOutlet weak var legislatorLabel: UILabel!
+    
     @IBOutlet weak var letterWritingDescriptionLabel: UILabel!
     @IBOutlet weak var resourcesDescription: UILabel!
     
@@ -18,11 +19,11 @@ class secondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func findYourRepresentativeButton(_ sender: Any) {
+    @IBAction func findYourRepresentativeButton(_ sender: Any) { UIApplication.shared.open(URL(string:"https://www.commoncause.org")! as URL, options: [:], completionHandler: nil)
     }
     
     @IBAction func letterWritingButton(_ sender: Any) {
@@ -30,7 +31,5 @@ class secondViewController: UIViewController {
     
     @IBAction func resourcesButton(_ sender: Any) {
     }
-    
-    
     
 }
