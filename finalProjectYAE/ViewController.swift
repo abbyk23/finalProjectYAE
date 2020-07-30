@@ -14,12 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var YAEImageLabel: UIImageView!
     @IBOutlet weak var missionStatement: UILabel!
     
+    @IBOutlet weak var clickHere: UIButton!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        clickHere.layer.cornerRadius = 10
+        
     }
 
     @IBAction func welcomeButton(_ sender: Any) {

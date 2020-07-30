@@ -11,10 +11,11 @@ import UIKit
 class fifthViewController: UIViewController {
 
     @IBOutlet weak var letterGenerator: UILabel!
+    @IBOutlet weak var backOutlet: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        backOutlet.layer.cornerRadius = 10
         
     }
     
