@@ -11,6 +11,7 @@ import UIKit
 class secondViewController: UIViewController {
 
     @IBOutlet weak var legislatorLabel: UILabel!
+    
     @IBOutlet weak var letterWritingDescriptionLabel: UILabel!
     @IBOutlet weak var resourcesDescription: UILabel!
     
@@ -18,7 +19,7 @@ class secondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
@@ -30,7 +31,5 @@ class secondViewController: UIViewController {
     
     @IBAction func resourcesButton(_ sender: Any) {
     }
-    
-    
     
 }
