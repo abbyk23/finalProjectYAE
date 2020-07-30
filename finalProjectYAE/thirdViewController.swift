@@ -14,7 +14,7 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var reliableResources: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+//starfish
         // Do any additional setup after loading the view.
     }
     
