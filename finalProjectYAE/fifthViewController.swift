@@ -7,23 +7,31 @@
 //
 
 import UIKit
+import UIKit
 import MessageUI
 
 class fifthViewController: UIViewController, MFMailComposeViewControllerDelegate, UITextFieldDelegate, UITextViewDelegate {
 
     @IBOutlet weak var letterGenerator: UILabel!
-    @IBOutlet weak var backOutlet: UIButton!
+        
+    @IBOutlet weak var envelopeIcon: UIImageView!
     
     @IBOutlet weak var heading: UITextField!
     @IBOutlet weak var textbox: UITextView!
-
+    
+    @IBOutlet weak var navPage: UIButton!
+    @IBOutlet weak var writingPage: UIButton!
+    @IBOutlet weak var sourcesPage: UIButton!
+    @IBOutlet weak var yourLetterPage: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backOutlet.layer.cornerRadius = 10
+       
         heading.delegate = self
                textbox.delegate = self
-        textbox.text = "Dear state legislator,\nMy name is (insert name) and my community had been exposed to cancer-causing emissions of Ethylene Oxide for over 30 years. Please support HB 3888 to ban Ethylene Oxide emissions near schools.\nThank you,\nAlexandra"
+        textbox.text = "Dear state legislator,\n\n My name is (insert name) and my community had been exposed to cancer-causing emissions of Ethylene Oxide for over 30 years. Please support HB 3888 to ban Ethylene Oxide emissions near schools.\n\n Thank you,\n (insert name)"
+         
     }
     
 
@@ -75,3 +83,4 @@ func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replace
     return true
 }
 }
+

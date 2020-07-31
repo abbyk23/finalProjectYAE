@@ -13,14 +13,20 @@ class sixthViewController: UIViewController, MFMailComposeViewControllerDelegate
 
     @IBOutlet weak var writeyourLetter: UILabel!
     
-    @IBOutlet weak var backMainMenu: UIButton!
+    @IBOutlet weak var writingIcon: UIImageView!
+    
     @IBOutlet weak var subject: UITextField!
     @IBOutlet weak var body: UITextView!
+    
+    @IBOutlet weak var generatorPage: UIButton!
+    @IBOutlet weak var resourcePage: UIButton!
+    @IBOutlet weak var writingLetterPage: UIButton!
+    @IBOutlet weak var navigationPage: UIButton!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        backMainMenu.layer.cornerRadius = 10
+       
         subject.delegate = self
                body.delegate = self
         

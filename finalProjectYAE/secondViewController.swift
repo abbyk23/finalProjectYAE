@@ -10,6 +10,7 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var navIcon: UIImageView!
     @IBOutlet weak var legislatorLabel: UILabel!
     
     @IBOutlet weak var letterWritingDescriptionLabel: UILabel!
@@ -18,6 +19,10 @@ class secondViewController: UIViewController {
     @IBOutlet weak var findYourRep: UIButton!
     @IBOutlet weak var letter: UIButton!
     @IBOutlet weak var resources: UIButton!
+    @IBOutlet weak var letterWritingPage: UIButton!
+    @IBOutlet weak var resourcesPage: UIButton!
+    @IBOutlet weak var generatorPage: UIButton!
+    @IBOutlet weak var yourLetterPage: UIButton!
     
     
     override func viewDidLoad() {
