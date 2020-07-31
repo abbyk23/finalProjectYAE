@@ -93,17 +93,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-Yd-ggk">
-                                <rect key="frame" x="86" y="160" width="242" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Find Your Legislators">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="findYourRepresentativeButton:" destination="770-qF-jNL" eventType="touchUpInside" id="xzD-nf-vCD"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9C-gl-Qec">
                                 <rect key="frame" x="65" y="403" width="285" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -132,15 +121,15 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLE-Ml-Qgk">
-                                <rect key="frame" x="30" y="207" width="354" height="66"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cLE-Ml-Qgk">
+                                <rect key="frame" x="65" y="247" width="285" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Find your local state legislators to contact now!">
                                         <attributes>
                                             <color key="NSColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="GillSans"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -162,7 +151,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Plt-eG-pyw">
-                                <rect key="frame" x="86" y="551" width="242" height="39"/>
+                                <rect key="frame" x="86" y="557" width="242" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -173,7 +162,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rGN-1t-gjG">
-                                <rect key="frame" x="86" y="356" width="242" height="39"/>
+                                <rect key="frame" x="86" y="357" width="242" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -183,6 +172,59 @@
                                     <segue destination="YeK-f6-p1o" kind="show" id="Une-Uh-yFB"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="safari.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="8mO-EU-k7x">
+                                <rect key="frame" x="183" y="102.5" width="49" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUt-xT-qij">
+                                <rect key="frame" x="105" y="762" width="54" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="YeK-f6-p1o" kind="show" id="evw-kd-X3Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LN-fx-hMa">
+                                <rect key="frame" x="360" y="773" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="zVw-lA-ePk" kind="show" id="Yfp-jf-LZb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00g-Hy-F5q">
+                                <rect key="frame" x="202" y="774" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="book.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="ENs-ui-Whv" kind="show" id="TnQ-Rn-ZeQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F7C-cu-6Qi">
+                                <rect key="frame" x="33" y="760" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="safari.fill" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDi-6B-VHK">
+                                <rect key="frame" x="291" y="774" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="envelope.open.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="8qG-cT-gLk" kind="show" id="zzP-92-Jv6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-Yd-ggk">
+                                <rect key="frame" x="86" y="213" width="242" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Find Your Legislators">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="findYourRepresentativeButton:" destination="770-qF-jNL" eventType="touchUpInside" id="xzD-nf-vCD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="FyD-nv-gej"/>
@@ -190,10 +232,15 @@
                     <navigationItem key="navigationItem" id="nyw-Xm-iXF"/>
                     <connections>
                         <outlet property="findYourRep" destination="Bsb-Yd-ggk" id="evL-s1-zKw"/>
+                        <outlet property="generatorPage" destination="hDi-6B-VHK" id="m5o-JK-lKm"/>
                         <outlet property="letter" destination="rGN-1t-gjG" id="GjA-xe-CUR"/>
                         <outlet property="letterWritingDescriptionLabel" destination="a9C-gl-Qec" id="WtC-dz-oAH"/>
+                        <outlet property="letterWritingPage" destination="kUt-xT-qij" id="6Gk-VH-0FB"/>
+                        <outlet property="navIcon" destination="8mO-EU-k7x" id="1k8-51-c32"/>
                         <outlet property="resources" destination="Plt-eG-pyw" id="A2V-le-tlr"/>
                         <outlet property="resourcesDescription" destination="EDv-Wi-vVT" id="pFD-n4-KjT"/>
+                        <outlet property="resourcesPage" destination="00g-Hy-F5q" id="1ZY-fx-M5g"/>
+                        <outlet property="yourLetterPage" destination="4LN-fx-hMa" id="3Y6-mq-9zl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONb-3W-Jjv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -233,19 +280,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eo7-pv-WpP">
-                                <rect key="frame" x="132" y="736" width="151" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Back to Main Menu">
-                                    <color key="titleColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="navLetterwriting:" destination="YeK-f6-p1o" eventType="touchUpInside" id="Es4-Nc-Y25"/>
-                                    <segue destination="770-qF-jNL" kind="show" id="BTY-OH-Ccx"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U0g-KB-Uk8">
                                 <rect key="frame" x="66" y="297" width="282" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -292,16 +326,62 @@
                                     <segue destination="8qG-cT-gLk" kind="show" id="Miq-t1-M7q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ho-k8-xux">
+                                <rect key="frame" x="105" y="751" width="54" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="pencil" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBT-RA-nGn">
+                                <rect key="frame" x="360" y="762" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="zVw-lA-ePk" kind="show" id="OV3-jf-1V9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ilw-eX-JaG">
+                                <rect key="frame" x="197" y="762" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="book.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="ENs-ui-Whv" kind="show" id="vYY-TL-L5c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVL-S1-oxQ">
+                                <rect key="frame" x="33" y="749" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="safari.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="770-qF-jNL" kind="show" id="aH2-Uo-0cp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJq-xp-FA8">
+                                <rect key="frame" x="291" y="763" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="envelope.open.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="8qG-cT-gLk" kind="show" id="7QM-3e-0ee"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C0J-Eu-Loc">
+                                <rect key="frame" x="182" y="129" width="50" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="ggd-aF-e5b"/>
                     </view>
                     <navigationItem key="navigationItem" id="9IG-zR-16m"/>
                     <connections>
+                        <outlet property="generatorPage" destination="KJq-xp-FA8" id="wS3-75-zJ0"/>
                         <outlet property="letterGen" destination="5Ts-dU-JYQ" id="FRS-6T-QBK"/>
                         <outlet property="letterWritingPageLabel" destination="xk7-wA-EZn" id="NlD-ZL-aap"/>
-                        <outlet property="mainMenu" destination="Eo7-pv-WpP" id="5xM-HS-5KG"/>
+                        <outlet property="mainPage" destination="WVL-S1-oxQ" id="zL2-9c-2cG"/>
+                        <outlet property="pencilIcon" destination="C0J-Eu-Loc" id="p2W-4u-czI"/>
+                        <outlet property="sourcePage" destination="Ilw-eX-JaG" id="Mv2-lA-A8V"/>
                         <outlet property="writeLetter" destination="bgI-zg-3zC" id="MZS-6l-Nzx"/>
+                        <outlet property="writeYourLetterPage" destination="oBT-RA-nGn" id="nQn-WA-TKF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YLL-xV-zGf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -331,33 +411,14 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zc6-Iq-P2x">
-                                <rect key="frame" x="132" y="721" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Back to Main Menu">
-                                            <attributes>
-                                                <color key="NSColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" metaFont="system" size="15"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </state>
-                                <connections>
-                                    <action selector="backtoMenu:" destination="8qG-cT-gLk" eventType="touchUpInside" id="lEk-ZG-sLQ"/>
-                                    <segue destination="770-qF-jNL" kind="show" id="Y0T-zo-ZYE"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yZd-9e-Ygr">
-                                <rect key="frame" x="159" y="178" width="97" height="34"/>
+                                <rect key="frame" x="159" y="241" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RLb-3u-abX">
-                                <rect key="frame" x="63" y="292" width="289" height="244"/>
+                                <rect key="frame" x="63" y="346" width="289" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -365,23 +426,69 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kUm-2w-J2V">
-                                <rect key="frame" x="169" y="624" width="76" height="30"/>
+                                <rect key="frame" x="169" y="664" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Email"/>
                                 <connections>
                                     <action selector="sendButton:" destination="8qG-cT-gLk" eventType="touchUpInside" id="d1Q-Cb-K2n"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOE-f2-yfB">
+                                <rect key="frame" x="105" y="762" width="54" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="YeK-f6-p1o" kind="show" id="FjO-0p-Fia"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dE-pv-Eza">
+                                <rect key="frame" x="360" y="773" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="zVw-lA-ePk" kind="show" id="bPr-5V-fGX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIu-O4-Lnh">
+                                <rect key="frame" x="197" y="773" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="book.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="ENs-ui-Whv" kind="show" id="tZf-dQ-axX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NdY-Ip-ass">
+                                <rect key="frame" x="33" y="760" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="safari.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="770-qF-jNL" kind="show" id="fxL-I1-ZAS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h4W-7X-uaA">
+                                <rect key="frame" x="291" y="774" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="envelope.open.fill" catalog="system"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="envelope.open.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Vio-Fs-tZm">
+                                <rect key="frame" x="183" y="123" width="48" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="5VY-qR-ocT"/>
                     </view>
                     <navigationItem key="navigationItem" id="ph2-aS-fgN"/>
                     <connections>
-                        <outlet property="backOutlet" destination="Zc6-Iq-P2x" id="ucd-AI-byt"/>
+                        <outlet property="envelopeIcon" destination="Vio-Fs-tZm" id="r3q-Pp-48z"/>
                         <outlet property="heading" destination="yZd-9e-Ygr" id="18i-9h-KA9"/>
                         <outlet property="letterGenerator" destination="dbi-JG-bKp" id="O1e-ID-R31"/>
+                        <outlet property="navPage" destination="NdY-Ip-ass" id="GQu-we-Wl3"/>
+                        <outlet property="sourcesPage" destination="HIu-O4-Lnh" id="9Fw-MG-XNR"/>
                         <outlet property="textbox" destination="RLb-3u-abX" id="K6I-7h-Wlm"/>
+                        <outlet property="writingPage" destination="hOE-f2-yfB" id="LEh-7b-LJS"/>
+                        <outlet property="yourLetterPage" destination="6dE-pv-Eza" id="Ctw-vg-PL2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yda-4E-dcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -410,21 +517,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odZ-zE-cNB">
-                                <rect key="frame" x="132" y="738" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Back to Main Menu">
-                                    <color key="titleColor" red="0.98041766880000003" green="0.88972991700000004" blue="0.92265051600000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="navSix:" destination="zVw-lA-ePk" eventType="touchUpInside" id="7VW-0I-p1I"/>
-                                    <segue destination="770-qF-jNL" kind="show" id="bC8-8J-f1e"/>
-                                </connections>
-                            </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hcf-e3-iBn">
-                                <rect key="frame" x="63" y="309" width="289" height="244"/>
+                                <rect key="frame" x="63" y="338" width="289" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -432,7 +526,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUL-WY-Gw2">
-                                <rect key="frame" x="167" y="616" width="76" height="30"/>
+                                <rect key="frame" x="169" y="671" width="76" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Send Email"/>
                                 <connections>
@@ -440,21 +534,67 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oS5-OV-hSf">
-                                <rect key="frame" x="159" y="183" width="97" height="34"/>
+                                <rect key="frame" x="159" y="224" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baB-PN-ArH">
+                                <rect key="frame" x="105" y="762" width="54" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="YeK-f6-p1o" kind="show" id="pKk-CF-2d2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLb-il-8wc">
+                                <rect key="frame" x="360" y="773" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBj-IX-x1d">
+                                <rect key="frame" x="197" y="773" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="book.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="ENs-ui-Whv" kind="show" id="Tc9-3N-XA6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L64-rD-AFp">
+                                <rect key="frame" x="33" y="760" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="safari.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="770-qF-jNL" kind="show" id="GLM-aB-TO2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6J-t2-T5W">
+                                <rect key="frame" x="291" y="774" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="envelope.open.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="8qG-cT-gLk" kind="show" id="AMB-zK-hYD"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="square.and.pencil" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gNe-Iz-EwR">
+                                <rect key="frame" x="182" y="118" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Xvs-4P-3Gc"/>
                     </view>
                     <navigationItem key="navigationItem" id="jcw-98-2ZU"/>
                     <connections>
-                        <outlet property="backMainMenu" destination="odZ-zE-cNB" id="edy-6F-Czs"/>
                         <outlet property="body" destination="hcf-e3-iBn" id="9eq-aU-BIy"/>
+                        <outlet property="generatorPage" destination="p6J-t2-T5W" id="bzm-YN-4Xc"/>
+                        <outlet property="navigationPage" destination="L64-rD-AFp" id="pia-cw-p6z"/>
+                        <outlet property="resourcePage" destination="wBj-IX-x1d" id="8eD-yW-GXn"/>
                         <outlet property="subject" destination="oS5-OV-hSf" id="6Ix-eD-f8A"/>
                         <outlet property="writeyourLetter" destination="eDR-nJ-hpC" id="bei-jg-zky"/>
+                        <outlet property="writingIcon" destination="gNe-Iz-EwR" id="3dz-rf-HpD"/>
+                        <outlet property="writingLetterPage" destination="baB-PN-ArH" id="jKV-zt-8Zh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w54-N2-9lj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -523,7 +663,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaH-X6-LVK">
-                                <rect key="frame" x="33" y="83" width="348" height="146"/>
+                                <rect key="frame" x="33" y="120" width="348" height="146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Reliable Resources typically end in gov, edu, or other specific endings. Below are links to some reliable resources: ">
@@ -545,16 +685,47 @@
                                     <action selector="harvardButton:" destination="ENs-ui-Whv" eventType="touchUpInside" id="qaa-8P-U1G"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaZ-vC-RPv">
-                                <rect key="frame" x="134" y="752" width="146" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xOm-lj-CGi">
+                                <rect key="frame" x="105" y="758" width="54" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Back to Main Menu">
-                                    <color key="titleColor" red="0.99993759390000003" green="0.88582265380000003" blue="0.9227630496" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" image="pencil" catalog="system"/>
                                 <connections>
-                                    <segue destination="770-qF-jNL" kind="show" id="i4p-IK-Ple"/>
+                                    <segue destination="YeK-f6-p1o" kind="show" id="Gzb-dX-SRE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0La-F0-dTU">
+                                <rect key="frame" x="360" y="769" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="square.and.pencil" catalog="system"/>
+                                <connections>
+                                    <segue destination="zVw-lA-ePk" kind="show" id="yW4-mq-Kx0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZZT-Yt-3KB">
+                                <rect key="frame" x="202" y="770" width="21" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="book.fill" catalog="system"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="book.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4L1-Af-kZn">
+                                <rect key="frame" x="182" y="92" width="50" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIM-gV-U7b">
+                                <rect key="frame" x="33" y="756" width="49" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="safari.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="770-qF-jNL" kind="show" id="6wz-dN-wnh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GXP-QK-8Qy">
+                                <rect key="frame" x="291" y="770" width="23" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="envelope.open.fill" catalog="system"/>
+                                <connections>
+                                    <segue destination="8qG-cT-gLk" kind="show" id="GvR-K5-yLt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -563,13 +734,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="MqU-bZ-VCO"/>
                     <connections>
+                        <outlet property="bookIcon" destination="4L1-Af-kZn" id="gUi-5G-GhC"/>
                         <outlet property="harvard" destination="5Gq-mJ-wAA" id="yk2-LF-88n"/>
+                        <outlet property="letterGenPage" destination="GXP-QK-8Qy" id="xnX-up-mtU"/>
+                        <outlet property="letterWritingPage" destination="xOm-lj-CGi" id="ab1-qF-JcE"/>
                         <outlet property="nLMNIH" destination="PzU-bA-JON" id="lgV-Jg-8jZ"/>
                         <outlet property="nPR" destination="H0T-2J-BNP" id="sNQ-O9-34H"/>
-                        <outlet property="nagScreen" destination="gaZ-vC-RPv" id="fM3-IU-AlL"/>
+                        <outlet property="navPage" destination="JIM-gV-U7b" id="05l-MI-cXk"/>
                         <outlet property="politico" destination="D7v-lo-8fD" id="dWK-OM-xN5"/>
                         <outlet property="reliableResources" destination="RaH-X6-LVK" id="z5o-cR-7uF"/>
                         <outlet property="resourceTitle" destination="o7m-wt-9bW" id="nw5-V5-wR1"/>
+                        <outlet property="writeLetterPage" destination="0La-F0-dTU" id="mWk-Df-h02"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAi-0X-37h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -578,9 +753,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Y0T-zo-ZYE"/>
+        <segue reference="tZf-dQ-axX"/>
+        <segue reference="bPr-5V-fGX"/>
+        <segue reference="zzP-92-Jv6"/>
+        <segue reference="FjO-0p-Fia"/>
+        <segue reference="fxL-I1-ZAS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="YEALogo" width="1500" height="1500"/>
+        <image name="book.fill" catalog="system" width="128" height="100"/>
+        <image name="envelope.open.fill" catalog="system" width="128" height="119"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="safari.fill" catalog="system" width="128" height="121"/>
+        <image name="square.and.pencil" catalog="system" width="128" height="118"/>
     </resources>
 </document>

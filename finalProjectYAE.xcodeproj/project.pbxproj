@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9959E5B324D08FC7007910AF /* finalProjectYAE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectYAE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9959E5B324D08FC7007910AF /* YAE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9959E5B624D08FC7007910AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9959E5B824D08FC7007910AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9959E5BA24D08FC7007910AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		9959E5B424D08FC7007910AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9959E5B324D08FC7007910AF /* finalProjectYAE.app */,
+				9959E5B324D08FC7007910AF /* YAE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,7 +102,7 @@
 			);
 			name = finalProjectYAE;
 			productName = finalProjectYAE;
-			productReference = 9959E5B324D08FC7007910AF /* finalProjectYAE.app */;
+			productReference = 9959E5B324D08FC7007910AF /* YAE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KWK.finalProjectYAE;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YAE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = KWK.finalProjectYAE;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YAE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

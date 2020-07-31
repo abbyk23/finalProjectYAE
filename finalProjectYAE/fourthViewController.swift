@@ -10,17 +10,21 @@ import UIKit
 
 class fourthViewController: UIViewController {
     
-    @IBOutlet weak var mainMenu: UIButton!
+    @IBOutlet weak var pencilIcon: UIImageView!
     @IBOutlet weak var letterWritingPageLabel: UILabel!
     @IBOutlet weak var letterGen: UIButton!
     @IBOutlet weak var writeLetter: UIButton!
+    @IBOutlet weak var mainPage: UIButton!
+    @IBOutlet weak var sourcePage: UIButton!
+    @IBOutlet weak var generatorPage: UIButton!
+    @IBOutlet weak var writeYourLetterPage: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         letterGen.layer.cornerRadius = 10
         writeLetter.layer.cornerRadius = 10
-        mainMenu.layer.cornerRadius = 10
+        
         // Do any additional setup after loading the view.
     }
     
