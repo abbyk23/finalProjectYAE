@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9959E5B224D08FC7007910AF"
-               BuildableName = "finalProjectYAE.app"
+               BuildableName = "YAE.app"
                BlueprintName = "finalProjectYAE"
                ReferencedContainer = "container:finalProjectYAE.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9959E5B224D08FC7007910AF"
-            BuildableName = "finalProjectYAE.app"
+            BuildableName = "YAE.app"
             BlueprintName = "finalProjectYAE"
             ReferencedContainer = "container:finalProjectYAE.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9959E5B224D08FC7007910AF"
-            BuildableName = "finalProjectYAE.app"
+            BuildableName = "YAE.app"
             BlueprintName = "finalProjectYAE"
             ReferencedContainer = "container:finalProjectYAE.xcodeproj">
          </BuildableReference>
